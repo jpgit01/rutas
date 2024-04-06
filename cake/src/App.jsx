@@ -15,7 +15,7 @@ const App = () => {
     <Container>
       <Navigation />
       <Row>
-        <Col>
+        <Col className="mt-3">
           <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/contacto" element={<Contacto />} />

@@ -7,20 +7,20 @@ import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-danger">
       <Container>
-        <Navbar.Brand>Happy Cake</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link to="/" className="">
+            <Link to="/" className="m-3 text-decoration-none text-white">
               Home
             </Link>
-            <Link to="/contacto" className="">
+            <Link to="/contacto" className="m-3 text-decoration-none text-white">
               Contacto
             </Link>
           </Nav>
         </Navbar.Collapse>
+        <Navbar.Brand className="text-white">Happy Cake</Navbar.Brand>
       </Container>
     </Navbar>
   );
