@@ -12,7 +12,7 @@ import NoRuta from "./views/NotFound";
 
 const App = () => {
   return (
-    <Container>
+    <Container fluid>
       <Navigation />
       <Row>
         <Col className="mt-3">
